@@ -2,7 +2,7 @@
 #include "ui_mainwindow.h"
 
 MyClass::MyClass(QObject *parent)
-    : m_Obj(parent)
+    : QObject(parent)
 {
 
 }

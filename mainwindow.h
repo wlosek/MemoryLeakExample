@@ -13,7 +13,6 @@ class MyClass : public QObject
 
 public:
     MyClass(QObject* parent = 0);
-    QObject* m_Obj;
 };
 
 class MainWindow : public QMainWindow
