@@ -7,6 +7,15 @@ namespace Ui {
 class MainWindow;
 }
 
+class MyClass : public QObject
+{
+    Q_OBJECT
+
+public:
+    MyClass(QObject* parent = 0);
+    QObject* m_Obj;
+};
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
